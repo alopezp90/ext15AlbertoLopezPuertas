@@ -11,9 +11,11 @@ import java.util.TreeMap;
  */
 public class LibroRecetas {
 
+    private String nombre;
     private Map<String, Receta> libroRecetas;
 
-    public LibroRecetas() {
+    public LibroRecetas(String nombre) {
+        this.nombre = nombre;
         libroRecetas = new TreeMap<>();
     }
 

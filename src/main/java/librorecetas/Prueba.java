@@ -9,7 +9,7 @@ public class Prueba {
     public static void main(String[] args) {
 
         //instancia libro
-        LibroRecetas libroPrueba = new LibroRecetas();
+        LibroRecetas libroPrueba = new LibroRecetas("libro1");
 
         //aniade recetas
         libroPrueba.guardarReceta(new Receta("Macarrones", 40,
